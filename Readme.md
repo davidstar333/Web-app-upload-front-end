@@ -1,9 +1,4 @@
-# This is the test project to learning about git.
-## Master branch
-- index.php
-- index1.php
-## Second branch
-- index.php
-- index2.php
+## Description
+This is the front end design for web app upload and parse any csv file.
 ## Contributor
 - David Blackwell
