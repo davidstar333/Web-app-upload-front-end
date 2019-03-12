@@ -111,3 +111,9 @@
         color: #6d1226;
     }
 }
+@media screen and (max-width: 500px) {
+    #qodef-back-to-top {
+        right: 20px;
+        bottom: 25px;
+    }
+}
