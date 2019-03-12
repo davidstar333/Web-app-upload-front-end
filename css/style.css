@@ -74,4 +74,7 @@
         line-height: 0;
         padding-left: 0;
     }
+    .probootstrap-navbar .navbar-brand:hover {
+        color: #6d1226;
+    }
 }
