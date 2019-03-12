@@ -185,12 +185,101 @@ legend{
     -o-transition: none;
     transition: none;
 }
+.index-1 .probootstrap-navbar.scrolled.awake {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.index-1 .probootstrap-navbar.scrolled.sleep {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.index-1 .probootstrap-navbar {
+    top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.09);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.09);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    color: #981a36;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.index-1 .probootstrap-navbar a {
+    color: rgba(0,0,0,.7) !important;
+}
+.index-1 .probootstrap-navbar a.navbar-brand {
+    top: 30px;
+    color: #981a36 !important;
+}
+.index-1 .probootstrap-navbar li.active>a {
+    color: #981a36!important;
+}
+.index-1 .col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* file upload */
+.files input {
+    outline: 2px dashed #981a36;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+    cursor: pointer;
+}
+.files input:focus{     outline: 2px dashed #981a36;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #981a36;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #981a36;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 @media (min-width:768px) {
 	#home{
 		margin-top:50px;
 	}
 	#home .slogan{
-		color: #0e385f;
+		color: #981a36;
 		line-height: 29px;
 		font-weight:bold;
 	}

@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    let h = $(window).height();
+    console.log(h);
+    let sub_h = h - 59 - 224;
+    console.log(sub_h);
+    $('section#working-area').height(sub_h);
+
     $(window).scroll(function() {
         var height = $(window).scrollTop();
         if (height > 100) {
@@ -29,3 +35,12 @@ $(document).ready(function() {
         $("#signup-modal").modal('show');
     })
 })
+
+function preview_images() 
+{
+ var total_file=document.getElementById("images").files.length;
+ for(var i=0;i<total_file;i++)
+ {
+  $('#image_preview').append("<div class='col-md-3'><img class='img-responsive' src='"+URL.createObjectURL(event.target.files[i])+"'></div>");
+ }
+}
