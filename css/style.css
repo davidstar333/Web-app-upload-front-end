@@ -69,6 +69,18 @@ body {
     color: #fff;
     background: #161e2c;
 }
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
 #qodef-back-to-top.on {
     opacity: 1;
     visibility: visible;
