@@ -6,13 +6,26 @@ $(document).ready(function() {
         } else {
             $('#qodef-back-to-top').fadeOut();
         }
-    });
-    $(document).ready(function() {
-        $("#qodef-back-to-top").click(function(event) {
-            event.preventDefault();
-            $("html, body").animate({ scrollTop: 0 }, "slow");
-            return false;
-        });
-    
-    });
+    })
+    $("#qodef-back-to-top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    })
+    $('#signup').click(function() {
+        $("#signup-modal").modal();
+    })
+    $('#signin').click(function() {
+        $("#signin-modal").modal();
+    })
+    $("#to-signin").click(function(e) {
+        e.preventDefault();
+        $("#signup-modal").modal('hide');
+        $("#signin-modal").modal('show');
+    })
+    $("#to-signup").click(function(e) {
+        e.preventDefault();
+        $("#signin-modal").modal('hide');
+        $("#signup-modal").modal('show');
+    })
 })

@@ -1,3 +1,6 @@
+body {
+    padding-right: 0 !important;
+}
 .probootstrap-footer {
     padding: 1em 0;
     position: relative;
@@ -115,5 +118,82 @@
     #qodef-back-to-top {
         right: 20px;
         bottom: 25px;
+    }
+}
+
+legend{
+	color:#141823;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.navbar-default .navbar-brand{
+		color:#fff;
+		font-size:30px;
+		font-weight:bold;
+}
+.form .form-control { margin-bottom: 10px; }
+#signup-modal .modal-header {
+    padding-left: 50px;
+}
+#signup-modal .modal-body {
+    padding: 20px 50px;
+}
+#signin-modal .modal-header {
+    padding-left: 50px;
+}
+#signin-modal .modal-body {
+    padding: 30px 50px 20px;
+}
+.myform .form-control {
+    border-radius: 0;
+}
+.myform .form-control:focus {
+    border: 1px solid #981a36;
+    box-shadow: none;
+}
+.modal {
+    top: 50px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 46px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+@media (min-width:768px) {
+	#home{
+		margin-top:50px;
+	}
+	#home .slogan{
+		color: #0e385f;
+		line-height: 29px;
+		font-weight:bold;
+	}
+}
+@media (max-width: 500px) {
+    #signup-modal .modal-header {
+        padding-left: 10px;
+    }
+    #signup-modal .modal-body {
+        padding: 10px;
+    }
+    #signin-modal .modal-header {
+        padding-left: 10px;
+    }
+    #signin-modal .modal-body {
+        padding: 10px;
     }
 }
