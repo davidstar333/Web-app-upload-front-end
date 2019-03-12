@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    let h = $(window).height();
-    console.log(h);
-    let sub_h = h - 59 - 224;
-    console.log(sub_h);
-    $('section#working-area').height(sub_h);
+    // let h = $(window).height();
+    // console.log(h);
+    // let sub_h = h - 59 - 224;
+    // console.log(sub_h);
+    // $('section#working-area').height(sub_h);
 
     $(window).scroll(function() {
         var height = $(window).scrollTop();

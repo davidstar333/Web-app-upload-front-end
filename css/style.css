@@ -282,7 +282,12 @@ legend{
 		color: #981a36;
 		line-height: 29px;
 		font-weight:bold;
-	}
+    }
+    footer {
+        position: fixed !important;
+        bottom: 0;
+        width: 100%;
+    }
 }
 @media (max-width: 500px) {
     #signup-modal .modal-header {
@@ -296,5 +301,10 @@ legend{
     }
     #signin-modal .modal-body {
         padding: 10px;
+    }
+    footer {
+        position: fixed !important;
+        bottom: 0;
+        width: 100%;
     }
 }
