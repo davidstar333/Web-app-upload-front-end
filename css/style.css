@@ -1,6 +1,68 @@
 .probootstrap-footer {
     padding: 1em 0;
     position: relative;
-    background: #1a57a5;
+    background: #161e2c;
     color: #fff;
+}
+.probootstrap-hero .intro-text .probootstrap-subheading .btn {
+    padding: 20px 40px;
+    border-radius: 0;
+    margin-right: 10px;
+    border: 2px solid #981a36;
+}
+.btn.btn-primary {
+    background: #981a36;
+}
+.btn.btn-primary:active, .btn.btn-primary:focus, .btn.btn-primary:hover {
+    background: #6d1226;
+    border-color: #6d1226;
+}
+.probootstrap-hero .intro-text .probootstrap-subheading .btn:hover {
+    background: #6d1226;
+    border-color: #6d1226;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #981a36;
+    border-color: #981a36;
+}
+.probootstrap-section.probootstrap-cta {
+    background: #981a36;
+    color: #fff;
+    padding: 3em 0;
+}
+.probootstrap-pricing .probootstrap-price strong {
+    font-size: 62px;
+    font-weight: 300;
+    color: #981a36;
+}
+.probootstrap-list li.probootstrap-check:before {
+    color: #981a36;
+    font-size: 16px;
+    content: "\eb91";
+}
+.probootstrap-section-heading .probootstrap-heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    height: 2px;
+    background: #981a36;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.probootstrap-form .form-control:focus {
+    border-color: #981a36;
+}
+.probootstrap-navbar.scrolled .navbar-brand {
+    top: 30px;
+    color: #981a36;
+}
+.probootstrap-navbar.scrolled .navbar-nav>li.active>a {
+    color: #981a36!important;
+}
+.btn.btn-black {
+    color: #fff;
+    background: #161e2c;
 }
