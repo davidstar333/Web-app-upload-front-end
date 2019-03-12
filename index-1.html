@@ -43,8 +43,20 @@
           <li><a href="#" data-nav-section="contact">Contact</a></li>
           <li class="active"><a href="#" data-nav-section="working-area">Working Area</a></li>
           <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-          <li><a href="#" id="signin">Sign in</a></li>
-          <li><a href="#" id="signup">Sign up</a></li>
+          <li class="hide"><a href="#" id="signin">Sign in</a></li>
+          <li class="hide"><a href="#" id="signup">Sign up</a></li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li class="dropdown" id="avatar" data-toggle="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="img/person_3.jpg" alt="Avatar" class="img-responsive img-circle probootstrap-author-photo" />
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/user/preferences"><i class="icon-cog"></i> Preferences</a></li>
+                <li><a href="/help/support"><i class="icon-envelope"></i> Contact Support</a></li>
+                <li class="divider"></li>
+                <li><a href="/auth/logout"><i class="icon-off"></i> Logout</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -61,7 +73,7 @@
                 </div>
                 <div class="col-md-12">
                     <button type="button" class="btn btn-lg btn-primary btn-block signup-btn mb20">
-                    <span class="btn-label"><i class="glyphicon glyphicon-ok"></i></span>&nbsp;&nbsp;Save
+                    <span class="btn-label"><i class="glyphicon glyphicon-ok"></i></span>&nbsp;&nbsp;Upload
                     </button>
                 </div>
             </form>
