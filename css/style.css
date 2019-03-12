@@ -283,7 +283,7 @@ legend{
 		line-height: 29px;
 		font-weight:bold;
     }
-    footer {
+    .index-1 footer {
         position: fixed !important;
         bottom: 0;
         width: 100%;
@@ -302,7 +302,7 @@ legend{
     #signin-modal .modal-body {
         padding: 10px;
     }
-    footer {
+    .index-1 footer {
         position: fixed !important;
         bottom: 0;
         width: 100%;
