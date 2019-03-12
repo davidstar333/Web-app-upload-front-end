@@ -66,3 +66,12 @@
     color: #fff;
     background: #161e2c;
 }
+
+
+@media screen and (max-width: 768px) {
+    .probootstrap-navbar .navbar-brand {
+        color: #981a36;
+        line-height: 0;
+        padding-left: 0;
+    }
+}
