@@ -4,7 +4,13 @@ $(document).ready(function() {
     // let sub_h = h - 59 - 224;
     // console.log(sub_h);
     // $('section#working-area').height(sub_h);
-
+    
+    $("#avatar").mouseover(function() {
+        $(".dropdown-menu").show();
+    })
+    $("#avatar").mouseout(function() {
+        $(".dropdown-menu").hide();
+    })
     $(window).scroll(function() {
         var height = $(window).scrollTop();
         if (height > 100) {
